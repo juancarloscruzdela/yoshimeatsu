@@ -62,16 +62,16 @@
                     </div>
                     <div class="row">
                       <div class="col-lg-6">
-                        <div class="card hover-shadow-lg hover-translate-y-n10"style="height:300px;">
+                        <div class="card hover-shadow-lg hover-translate-y-n10">
                           <div class="card-image p-0">
-                            <img alt="Image placeholder" src="{{asset('/img/meat.png')}}" class="card-img mt-3 p-6">
+                            <img alt="Image placeholder" src="{{asset('/img/meat.png')}}" class="card-img">
                           </div>
                           
                           
                           <div class="card-img-overlay d-flex flex-column">
                             <div class="col pt-2">
                               <h3 class="text-capitalize mb-1">
-                                <a href="#" class="text-dark">MEAT</a>
+                                {{-- <a href="#" class="text-dark">MEAT</a> --}}
                               </h3>
                               {{-- <h6 class="text-dark">
                                 <a href="#" class="text-dark border-bottom border-white">Identity &amp; Web Design</a>
@@ -84,16 +84,16 @@
                         </div>
                       </div>
                       <div class="col-lg-6">
-                        <div class="card hover-shadow-lg hover-translate-y-n10" style="height:300px;">
+                        <div class="card hover-shadow-lg hover-translate-y-n10">
                           <div class="card-image p-0">
-                            <img alt="Image placeholder" src="{{asset('/img/side-dish.png')}}" class="card-img p-7">
+                            <img alt="Image placeholder" src="{{asset('/img/side-dish.png')}}" class="card-img">
                           </div>
                           
                           
                           <div class="card-img-overlay d-flex flex-column">
                             <div class="col pt-2">
                               <h3 class="text-capitalize mb-1">
-                                <a href="#" class="text-dark">SIDE DISH</a>
+                                {{-- <a href="#" class="text-dark">SIDE DISH</a> --}}
                               </h3>
                               {{-- <h6 class="text-dark">
                                 <a href="#" class="text-dark border-bottom border-white">Branding</a>
@@ -108,16 +108,16 @@
                     </div>
                     <div class="row">
                       <div class="col-lg-6">
-                        <div class="card hover-shadow-lg hover-translate-y-n10" style="height:300px;">
+                        <div class="card hover-shadow-lg hover-translate-y-n10">
                           <div class="card-image p-0">
-                            <img alt="Image placeholder" src="{{asset('/img/dessert.png')}}" class="card-img p-7">
+                            <img alt="Image placeholder" src="{{asset('/img/dessert.png')}}" class="card-img">
                           </div>
                           
                           
                           <div class="card-img-overlay d-flex flex-column">
                             <div class="col pt-2">
                               <h3 class="text-capitalize mb-1">
-                                <a href="#" class="text-dark">DESSERT</a>
+                                {{-- <a href="#" class="text-dark">DESSERT</a> --}}
                               </h3>
                               {{-- <h6 class="text-dark">
                                 <a href="#" class="text-dark border-bottom border-white">Marketing</a>
@@ -130,16 +130,16 @@
                         </div>
                       </div>
                       <div class="col-lg-6">
-                        <div class="card hover-shadow-lg hover-translate-y-n10" style="height:300px;">
+                        <div class="card hover-shadow-lg hover-translate-y-n10">
                           <div class="card-image p-0">
-                          <img alt="Image placeholder" src="{{asset('/img/beverages.png')}}" class="card-img p-7">
+                          <img alt="Image placeholder" src="{{asset('/img/beverages.png')}}" class="card-img">
                           </div>
                           
                           
                           <div class="card-img-overlay d-flex flex-column">
                             <div class="col pt-2">
                               <h3 class="text-capitalize mb-1">
-                                <a href="#" class="text-dark">BEVERAGES</a>
+                                {{-- <a href="#" class="text-dark">BEVERAGES</a> --}}
                               </h3>
                               {{-- <h6 class="text-dark">
                                 <a href="#" class="text-dark border-bottom border-white">Management</a>
