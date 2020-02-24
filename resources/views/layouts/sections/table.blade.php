@@ -11,7 +11,7 @@
                         </div>
                     @endif
 
-                    <a href="/students">asdasd</a>
+                    <a href="/students">Table</a>
                 </div>
             </div>
         </div>
