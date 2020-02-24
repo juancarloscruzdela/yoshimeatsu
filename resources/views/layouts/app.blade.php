@@ -10,14 +10,18 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
+    <link rel="stylesheet" href="{!! mix('/assets/css/rakwireless.css') !!}">
+    <link rel="stylesheet" href="/assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="/assets/libs/@rakwireless/fontello/css/fontello.css">
+    <link rel="stylesheet" href="/assets/libs/@rakwireless/fontello/css/animation.css">
 </head>
 <body>
     <div id="app">
@@ -76,5 +80,7 @@
             @yield('content')
         </main>
     </div>
+    <script src="{!! mix('/assets/js/rakwireless.core.js') !!}"></script>
+    <script src="{!! mix('/assets/js/rakwireless.js') !!}"></script>
 </body>
 </html>

@@ -1,0 +1,102 @@
+// User styles
+//
+// This is the place where you should place all additional styles and imports.
+// This will allow you to take advantage of future updates with lower time consumed on the upgrade process.
+
+@import 'blocks/w-px';
+@import 'blocks/h-px';
+
+.site-link:last-of-type {
+    .nav-link, .nav-link i {
+        @extend .mr-0, .pr-0;
+    }
+}
+
+#h-nav-right.navbar-nav .nav-item:last-of-type {
+    @extend .mr-lg-0, .pr-lg-0;
+    .nav-link {
+        @extend .mr-lg-0, .pr-lg-0;
+    }
+}
+
+.solid-delimiter-right {
+    border-right: 1px solid #36429c !important;
+}
+
+.language-flag {
+    background-size: cover;
+    width: 20px;
+    height: 14px;
+    top: -1px;
+}
+
+.dropdown-chevron-smaller::after {
+    font-size: smaller;
+}
+
+.banner-bg {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner-bg > .video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.banner-bg > .image {
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.ul-circle {
+    list-style-type: circle;
+}
+
+.latest-news-img {
+    background-image:url('/resources/rak/icons/white.svg');
+    background-color:#f0f0f0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 250px;
+}
+
+.ws-initial {
+    white-space: initial;
+    line-height: 20px;
+    font-size: 15px!important;
+}
+
+.rak-logo {
+    height: 20px;
+    width: 70px;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.product-type {
+    height: 20px;
+    width: 125px;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.product-img {
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-dropdown-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+}
